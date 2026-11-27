@@ -1,0 +1,897 @@
+{
+  "sellers": [
+    {
+      "id": "seller_earthloom_demo",
+      "username": "meera.earthloom",
+      "email": "demo@earthloom.in",
+      "passwordHash": "DEMO_SAMPLE_NO_PASSWORD",
+      "isDemoSample": true,
+      "role": "seller",
+      "storeName": "Earthloom Craft Studio",
+      "storeSlug": "earthloom-craft-studio",
+      "businessCategory": "Handmade Home Decor & Crafts",
+      "upiId": "earthloom.crafts@okicici",
+      "currencySymbol": "₹",
+      "avatarUrl": "/src/assets/images/seller_avatar_artisan_1795710340594.jpg",
+      "deliverySla": "Dispatched within 2 business days; standard delivery takes 4–6 business days across India.",
+      "cancellationPolicy": "Orders can be cancelled within 12 hours of placement before packing begins.",
+      "returnPolicy": "Damaged or incorrect items are eligible for free replacement or refund within 48 hours of delivery with unboxing photo.",
+      "paymentMethodsText": "We accept UPI payments (Google Pay, PhonePe, Paytm, BHIM) via earthloom.crafts@okicici and verified QR code.",
+      "faqs": [
+        {
+          "id": "faq_1",
+          "question": "How long does delivery take?",
+          "answer": "Orders are packed within 48 hours and delivered in 4–6 business days across India.",
+          "source": "seller_setup",
+          "updatedAt": "2026-11-12T16:47:48.418Z"
+        },
+        {
+          "id": "faq_2",
+          "question": "What payment methods do you accept?",
+          "answer": "We accept all major UPI apps (GPay, PhonePe, Paytm) via UPI ID earthloom.crafts@okicici or QR scan.",
+          "source": "seller_setup",
+          "updatedAt": "2026-11-12T16:47:48.418Z"
+        },
+        {
+          "id": "faq_3",
+          "question": "Can I cancel my order?",
+          "answer": "Yes, you can request cancellation within 12 hours of placing the order, before it is packed.",
+          "source": "seller_setup",
+          "updatedAt": "2026-11-12T16:47:48.418Z"
+        }
+      ],
+      "integrations": [
+        {
+          "platform": "Instagram Business",
+          "connected": true,
+          "handleOrEndpoint": "@earthloom.studio",
+          "mode": "Manual Input / Webhook Ready",
+          "lastSyncedAt": "2026-11-26T14:47:48.418Z"
+        },
+        {
+          "platform": "WhatsApp Business",
+          "connected": true,
+          "handleOrEndpoint": "+91 98200 11420",
+          "mode": "Manual Input / Webhook Ready",
+          "lastSyncedAt": "2026-11-26T11:47:48.418Z"
+        },
+        {
+          "platform": "Email Notifications",
+          "connected": true,
+          "handleOrEndpoint": "demo@earthloom.in",
+          "mode": "API Authorized",
+          "lastSyncedAt": "2026-11-26T15:47:48.418Z"
+        },
+        {
+          "platform": "UPI Payment Gateway",
+          "connected": true,
+          "handleOrEndpoint": "earthloom.crafts@okicici",
+          "mode": "Manual Input / Webhook Ready",
+          "lastSyncedAt": "2026-11-26T14:47:48.418Z"
+        }
+      ],
+      "createdAt": "2026-10-27T16:47:48.418Z"
+    },
+    {
+      "id": "seller_4bf8b4ae2f",
+      "username": "priya@009",
+      "email": "priya009@gmail.com",
+      "passwordHash": "ee67967e0340c1f666ac79ac6d236bf0:f5692d5e8ed5a2be6df27be8e18f780cc945518bbe09d82f1ce9eba9f65b387af4e02e8fa468cce27deddbc143202bf42d0288d63fb444fd5194af1be6befaeb",
+      "role": "seller",
+      "storeName": "anticss",
+      "storeSlug": "anticss-ae2f",
+      "businessCategory": "Jewellery & Accessories",
+      "upiId": "01526647783884890",
+      "currencySymbol": "₹",
+      "deliverySla": "Dispatched within 2 business days; standard delivery takes 4–6 business days.",
+      "cancellationPolicy": "Orders can be cancelled within 12 hours of placement before packing begins.",
+      "returnPolicy": "Free replacement or refund within 48 hours for damaged or incorrect products.",
+      "paymentMethodsText": "UPI payments accepted via 01526647783884890 (GPay, PhonePe, Paytm, BHIM).",
+      "faqs": [
+        {
+          "id": "faq_cb447a9117",
+          "question": "What payment methods are accepted?",
+          "answer": "We accept UPI payments via 01526647783884890 and verified QR code.",
+          "source": "seller_setup",
+          "updatedAt": "2026-11-26T17:12:15.517Z"
+        },
+        {
+          "id": "faq_e947a805a3",
+          "question": "How long will delivery take?",
+          "answer": "Dispatched within 2 business days; standard delivery takes 4–6 business days.",
+          "source": "seller_setup",
+          "updatedAt": "2026-11-26T17:12:15.517Z"
+        }
+      ],
+      "integrations": [
+        {
+          "platform": "Instagram Business",
+          "connected": true,
+          "handleOrEndpoint": "@anticss",
+          "mode": "Manual Input / Webhook Ready"
+        },
+        {
+          "platform": "WhatsApp Business",
+          "connected": true,
+          "handleOrEndpoint": "WhatsApp Business API Ready",
+          "mode": "Manual Input / Webhook Ready"
+        },
+        {
+          "platform": "Email Notifications",
+          "connected": true,
+          "handleOrEndpoint": "priya009@gmail.com",
+          "mode": "API Authorized",
+          "lastSyncedAt": "2026-11-26T17:12:15.517Z"
+        },
+        {
+          "platform": "UPI Payment Gateway",
+          "connected": true,
+          "handleOrEndpoint": "01526647783884890",
+          "mode": "Manual Input / Webhook Ready",
+          "lastSyncedAt": "2026-11-26T17:12:15.517Z"
+        }
+      ],
+      "createdAt": "2026-11-26T17:12:15.517Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_keychain_01",
+      "sellerId": "seller_earthloom_demo",
+      "name": "Handmade Macrame Keychains",
+      "sku": "EL-KC-01",
+      "category": "Handmade Accessories",
+      "description": "Hand-knotted organic cotton cord keychain with natural beechwood beads and antique brass clasp.",
+      "imageUrl": "/src/assets/images/product_handmade_keychain_1795710342140.jpg",
+      "materials": [
+        {
+          "id": "mat_1",
+          "name": "3mm Combed Cotton Cord",
+          "quantity": 2,
+          "unit": "meters",
+          "unitCost": 14
+        },
+        {
+          "id": "mat_2",
+          "name": "Natural Beechwood Beads",
+          "quantity": 4,
+          "unit": "pcs",
+          "unitCost": 6
+        },
+        {
+          "id": "mat_3",
+          "name": "Antique Brass Swivel Clasp",
+          "quantity": 1,
+          "unit": "pc",
+          "unitCost": 28
+        }
+      ],
+      "labourCost": 55,
+      "packagingCost": 18,
+      "otherExpenses": 12,
+      "desiredMarginPercent": 45,
+      "sellingPrice": 280,
+      "pricingSnapshot": {
+        "totalMaterialCost": 80,
+        "labourCost": 55,
+        "packagingCost": 18,
+        "otherExpenses": 12,
+        "totalProductionCost": 165,
+        "minimumViablePrice": 165,
+        "desiredMarginPercent": 45,
+        "suggestedSellingPrice": 300,
+        "selectedSellingPrice": 280,
+        "expectedProfitPerUnit": 115,
+        "actualMarginPercent": 41.07,
+        "competitorPrices": [
+          {
+            "sellerName": "BohoKnot Studio (Seller Estimate)",
+            "price": 295,
+            "source": "seller_estimate"
+          },
+          {
+            "sellerName": "Krafted Loom (Seller Estimate)",
+            "price": 260,
+            "source": "seller_estimate"
+          }
+        ],
+        "recommendationSummary": "Competitive pricing with healthy 41.1% gross margin.",
+        "explanation": "Actual production cost is ₹165 per piece (₹80 materials + ₹55 labour + ₹18 packaging + ₹12 overhead). At ₹280, you earn ₹115 per piece while staying below the ₹295 competitor benchmark.",
+        "groundingSources": [],
+        "calculatedAt": "2026-11-21T16:47:48.311Z"
+      },
+      "initialStock": 50,
+      "manufacturedAddedStock": 0,
+      "unitsSold": 40,
+      "returnedCancelledUnits": 0,
+      "allocatedUnits": 2,
+      "minStockThreshold": 10,
+      "createdAt": "2026-11-06T16:47:48.312Z",
+      "updatedAt": "2026-11-25T16:47:48.312Z"
+    },
+    {
+      "id": "prod_candle_02",
+      "sellerId": "seller_earthloom_demo",
+      "name": "Sandalwood Amber Soy Candle",
+      "sku": "EL-SC-02",
+      "category": "Home Fragrance",
+      "description": "Hand-poured 226g natural soy wax candle in reusable amber apothecary jar with wood wick.",
+      "imageUrl": "/src/assets/images/product_soy_candle_1795710340594.jpg",
+      "materials": [
+        {
+          "id": "mat_4",
+          "name": "Soy Wax Flakes",
+          "quantity": 230,
+          "unit": "grams",
+          "unitCost": 0.45
+        },
+        {
+          "id": "mat_5",
+          "name": "Amber Glass Apothecary Jar",
+          "quantity": 1,
+          "unit": "pc",
+          "unitCost": 68
+        },
+        {
+          "id": "mat_6",
+          "name": "Sandalwood Fragrance Oil",
+          "quantity": 20,
+          "unit": "ml",
+          "unitCost": 3.5
+        },
+        {
+          "id": "mat_7",
+          "name": "Wood Wick & Kraft Label",
+          "quantity": 1,
+          "unit": "set",
+          "unitCost": 16
+        }
+      ],
+      "labourCost": 75,
+      "packagingCost": 32,
+      "otherExpenses": 18,
+      "desiredMarginPercent": 42,
+      "sellingPrice": 640,
+      "pricingSnapshot": {
+        "totalMaterialCost": 257.5,
+        "labourCost": 75,
+        "packagingCost": 32,
+        "otherExpenses": 18,
+        "totalProductionCost": 382.5,
+        "minimumViablePrice": 382.5,
+        "desiredMarginPercent": 42,
+        "suggestedSellingPrice": 660,
+        "selectedSellingPrice": 640,
+        "expectedProfitPerUnit": 257.5,
+        "actualMarginPercent": 40.23,
+        "competitorPrices": [
+          {
+            "sellerName": "AromaCraft India (Seller Estimate)",
+            "price": 699,
+            "source": "seller_estimate"
+          }
+        ],
+        "recommendationSummary": "Well positioned under ₹699 boutique candle pricing.",
+        "explanation": "Total production cost is ₹382.50. Setting price at ₹640 yields ₹257.50 profit per jar (40.2% margin).",
+        "groundingSources": [],
+        "calculatedAt": "2026-11-18T16:47:48.312Z"
+      },
+      "initialStock": 35,
+      "manufacturedAddedStock": 10,
+      "unitsSold": 22,
+      "returnedCancelledUnits": 1,
+      "allocatedUnits": 2,
+      "minStockThreshold": 8,
+      "createdAt": "2026-11-01T16:47:48.312Z",
+      "updatedAt": "2026-11-24T16:47:48.312Z"
+    },
+    {
+      "id": "prod_tote_03",
+      "sellerId": "seller_earthloom_demo",
+      "name": "Sage Woven Macrame Tote Bag",
+      "sku": "EL-TB-03",
+      "category": "Handwoven Bags",
+      "description": "Artisanal cotton macramé tote bag in cream and sage with wooden bead handle accents.",
+      "imageUrl": "/src/assets/images/product_macrame_bag_1795710340546.jpg",
+      "materials": [
+        {
+          "id": "mat_8",
+          "name": "5mm Braided Cotton Cord",
+          "quantity": 45,
+          "unit": "meters",
+          "unitCost": 9
+        },
+        {
+          "id": "mat_9",
+          "name": "Cotton Canvas Inner Lining",
+          "quantity": 1,
+          "unit": "pc",
+          "unitCost": 95
+        },
+        {
+          "id": "mat_10",
+          "name": "Wooden Handle Beads",
+          "quantity": 8,
+          "unit": "pcs",
+          "unitCost": 7
+        }
+      ],
+      "labourCost": 320,
+      "packagingCost": 45,
+      "otherExpenses": 30,
+      "desiredMarginPercent": 40,
+      "sellingPrice": 1590,
+      "initialStock": 18,
+      "manufacturedAddedStock": 0,
+      "unitsSold": 7,
+      "returnedCancelledUnits": 0,
+      "allocatedUnits": 1,
+      "minStockThreshold": 5,
+      "createdAt": "2026-11-11T16:47:48.312Z",
+      "updatedAt": "2026-11-23T16:47:48.312Z"
+    },
+    {
+      "id": "prod_earrings_04",
+      "sellerId": "seller_earthloom_demo",
+      "name": "Terracotta & Sage Clay Earrings",
+      "sku": "EL-CE-04",
+      "category": "Handmade Jewellery",
+      "description": "Lightweight textured polymer clay statement earrings with hypoallergenic gold-plated hooks.",
+      "imageUrl": "/src/assets/images/product_clay_earrings_1795710340985.jpg",
+      "materials": [
+        {
+          "id": "mat_11",
+          "name": "Sculpey Polymer Clay",
+          "quantity": 30,
+          "unit": "grams",
+          "unitCost": 2.2
+        },
+        {
+          "id": "mat_12",
+          "name": "Hypoallergenic Brass Hooks",
+          "quantity": 1,
+          "unit": "pair",
+          "unitCost": 24
+        }
+      ],
+      "labourCost": 95,
+      "packagingCost": 22,
+      "otherExpenses": 10,
+      "desiredMarginPercent": 48,
+      "sellingPrice": 420,
+      "initialStock": 28,
+      "manufacturedAddedStock": 0,
+      "unitsSold": 14,
+      "returnedCancelledUnits": 0,
+      "allocatedUnits": 0,
+      "minStockThreshold": 6,
+      "createdAt": "2026-11-14T16:47:48.312Z",
+      "updatedAt": "2026-11-24T16:47:48.312Z"
+    },
+    {
+      "id": "prod_56e9554ad5",
+      "sellerId": "seller_4bf8b4ae2f",
+      "name": "keys",
+      "sku": "KEYS-01",
+      "category": "Jewellery & Accessories",
+      "description": "we have keysss",
+      "materials": [
+        {
+          "id": "mat_07392fa51b",
+          "name": "Primary Raw Material",
+          "quantity": 1,
+          "unit": "unit",
+          "unitCost": 80
+        }
+      ],
+      "labourCost": 40,
+      "packagingCost": 20,
+      "otherExpenses": 10,
+      "desiredMarginPercent": 40,
+      "sellingPrice": 280,
+      "initialStock": 25,
+      "manufacturedAddedStock": 0,
+      "unitsSold": 0,
+      "returnedCancelledUnits": 0,
+      "allocatedUnits": 0,
+      "minStockThreshold": 5,
+      "createdAt": "2026-11-26T17:12:15.517Z",
+      "updatedAt": "2026-11-26T17:12:15.517Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1042",
+      "orderNumber": "SM-1042",
+      "sellerId": "seller_earthloom_demo",
+      "customerName": "Ananya Sharma",
+      "customerContact": "@ananya.sharma_ig",
+      "deliveryAddress": "42 Indiranagar 100ft Rd, Bengaluru 560038",
+      "channel": "Instagram DM",
+      "items": [
+        {
+          "productId": "prod_candle_02",
+          "productName": "Sandalwood Amber Soy Candle",
+          "quantity": 2,
+          "unitPrice": 640,
+          "lineTotal": 1280
+        }
+      ],
+      "totalAmount": 1280,
+      "status": "Order Placed",
+      "statusHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-11-26T13:47:48.417Z",
+          "updatedBy": "ai_agent",
+          "note": "Automated order captured via Instagram DM after buyer confirmation."
+        }
+      ],
+      "payment": {
+        "status": "Verification Required",
+        "method": "UPI",
+        "expectedAmount": 1280,
+        "upiId": "earthloom.crafts@okicici",
+        "upiLink": "upi://pay?pa=earthloom.crafts%40okicici&pn=Earthloom+Craft+Studio&am=1280.00&cu=INR&tn=Order+SM-1042",
+        "qrDataUrl": "data:image/png;base64,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yLVePNSV/BTz4JR58ERXMnUlk3mw05VM5sFkHux0Je/WlbxbV7JjHrybeTB1JU90JT+lK3m3hYhcayEi11qIyLUWInKtF9/EPHiiK3miK5nMgyfMg6kr+Zu6kh3z4N3Mg1NdyWQenDIPpq7kCfPgp3QlJ8yDna7kxEJErrUQkWstRORaCxG51ov/KPPgRFdyqis5ZR6c6Ep2zIMT5sET5sETXcmpruSUeTCZB090JZN5sNOVTObBb7MQkWstRORaCxG51kJErrUQkWu9+I/qSibz4JR5MHUlk3lwqiuZzIOdrmQyD6au5JR5MHUlO+bB1JVM5sFOV/ITupJT5sHUleyYB0+YBz9hISLXWojItRYicq2FiFzrxTfpSn6brmQyD06ZB1NXsmMeTObB1JXsmAdTVzKZBztdyQnz4JR58Dd1JZN5cKormcyDna7khHmw05VM5sHUlTyxEJFrLUTkWgsRudZCRK714iHz4DcyD96tK3k38+CUeTB1JTvmwbt1Jb9NV7JjHkzmwX/NQkSutRCRay1E5FoLEbnWQkSu9fH5BRG50kJErrUQkWstRORaCxG51kJErrUQkWstRORaCxG51kJErvU/IMehLI8SX4IAAAAASUVORK5CYII=",
+        "buyerReferenceNote": "Paid via GPay UTR 631948220194",
+        "ocrResult": {
+          "extractedAmount": 1280,
+          "transactionId": "631948220194",
+          "payeeUpiOrName": "earthloom.crafts@okicici",
+          "payerName": "Ananya S",
+          "paymentApp": "Google Pay",
+          "timestampText": "Today, 09:42 AM",
+          "statusText": "Completed",
+          "matchesExpectedAmount": true,
+          "matchesSellerUpi": true,
+          "confidenceNotes": "Amount and UPI ID match order SM-1042. Awaiting seller bank confirmation."
+        },
+        "submittedAt": "2026-11-26T14:47:48.417Z"
+      },
+      "customerNotificationsSent": [
+        {
+          "timestamp": "2026-11-26T13:47:48.417Z",
+          "message": "Thank you for placing order SM-1042 (₹1,280). Please complete UPI payment to earthloom.crafts@okicici.",
+          "channel": "Instagram DM"
+        }
+      ],
+      "createdAt": "2026-11-26T13:47:48.417Z",
+      "updatedAt": "2026-11-26T14:47:48.417Z"
+    },
+    {
+      "id": "ord_1041",
+      "orderNumber": "SM-1041",
+      "sellerId": "seller_earthloom_demo",
+      "customerName": "Rohan Nair",
+      "customerContact": "+91 98450 22190",
+      "deliveryAddress": "18 Marine Drive Apartments, Kochi 682031",
+      "channel": "WhatsApp Business",
+      "items": [
+        {
+          "productId": "prod_keychain_01",
+          "productName": "Handmade Macrame Keychains",
+          "quantity": 2,
+          "unitPrice": 280,
+          "lineTotal": 560
+        }
+      ],
+      "totalAmount": 560,
+      "status": "Payment Confirmed",
+      "statusHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-11-25T11:47:48.417Z",
+          "updatedBy": "ai_agent",
+          "note": "Order placed via WhatsApp Business automated flow."
+        },
+        {
+          "status": "Payment Confirmed",
+          "timestamp": "2026-11-25T14:47:48.417Z",
+          "updatedBy": "seller",
+          "note": "Seller verified ₹560 credit in ICICI statement."
+        }
+      ],
+      "payment": {
+        "status": "Payment Confirmed",
+        "method": "UPI",
+        "expectedAmount": 560,
+        "upiId": "earthloom.crafts@okicici",
+        "upiLink": "upi://pay?pa=earthloom.crafts%40okicici&pn=Earthloom+Craft+Studio&am=560.00&cu=INR&tn=Order+SM-1041",
+        "qrDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAYAAAA+VemSAAAAAklEQVR4AewaftIAAAvbSURBVO3BwY1ky65lwZWOEIBD6kD9RaEOHFKD6po24cD3womMTH93m339+QsRudJCRK61EJFrLUTkWgsRudZCRK61EJFrLUTkWgsRudZCRK61EJFrvfgH5sFv05WcMg9OdSWTeXCqK5nMgye6ksk8eKIr2TEPTnQlT5gHO13JZB480ZVM5sFv1JWcWIjItRYicq2FiFxrISLXevFQV/Ip5sETXclkHvykrmTHPDjRleyYB090JZN5cMo8eLeu5JR58ERX8gnmwRMLEbnWQkSutRCRay1E5FoLEbnWi29iHjzRlTxhHkxdydSVnOpKJvPgVFfyhHlwqiuZzIN3Mw92upLJPJi6klPmwdSVfIp58ERX8m4LEbnWQkSutRCRay1E5FovZMs8mLqSU+bBE13Jb9OVvJt5cKorOdWV/BcsRORaCxG51kJErrUQkWu9+I8zD06ZB6e6ksk8eMI8eKIrOWUeTF3JE13JZB6cMg+e6Er+1yxE5FoLEbnWQkSutRCRay1E5FovvklXcrOu5IR5sGMenOhKdsyDE13JjnkwmQenupInzIMTXckp82DqSnbMg3frSn6bhYhcayEi11qIyLUWInKtFw+ZB/8V5sHUleyYB1NXMpkHO13JZB480ZVM5sEp82DqSk51JZN5sNOV/CTz4AYLEbnWQkSutRCRay1E5Fpff/7if5B58JO6kk8wD57oSk6ZB1NXsmMeTF3JZB7sdCXyf1uIyLUWInKthYhcayEi11qIyLVe/APzYOpKdsyDT+hKdrqSyTyYupId8+BEV7JjHpzoSnbMg6krOdWVnDAPdrqSE+bBKfNg6kp2zIN360om8+BTupJ3W4jItRYicq2FiFxrISLXevFNupLJPJi6kifMgyfMg1NdybuZB9/BPDjRleyYB1NX8m7mwU5XcsI8OGUenOpKJvPgVFfyCQsRudZCRK61EJFrLUTkWi8+qCuZzIOdrmQyD6au5JR5cKormcyDqSt5oivZMQ9OdCXfoSuZzIOpKzllHpwyD050JTvmwdSVTObBzRYicq2FiFxrISLXWojItRYicq0X/6ArmcyDU13JKfNg6kom8+A36kom8+BUV3LCPHiiK/mNupInupLJPDhlHrybeXCq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",
+        "verifiedAt": "2026-11-25T14:47:48.417Z",
+        "verifiedBy": "Meera Patel"
+      },
+      "customerNotificationsSent": [
+        {
+          "timestamp": "2026-11-25T14:47:48.417Z",
+          "message": "Payment confirmed for order SM-1041. Your Handmade Macrame Keychains are now queued for packing.",
+          "channel": "WhatsApp Business"
+        }
+      ],
+      "createdAt": "2026-11-25T11:47:48.417Z",
+      "updatedAt": "2026-11-25T14:47:48.417Z"
+    },
+    {
+      "id": "ord_1043",
+      "orderNumber": "SM-1043",
+      "sellerId": "seller_earthloom_demo",
+      "customerName": "Priya Menon",
+      "customerContact": "priya.menon@example.com",
+      "deliveryAddress": "7B Koregaon Park Lane 4, Pune 411001",
+      "channel": "Storefront Chat",
+      "items": [
+        {
+          "productId": "prod_tote_03",
+          "productName": "Sage Woven Macrame Tote Bag",
+          "quantity": 1,
+          "unitPrice": 1590,
+          "lineTotal": 1590
+        }
+      ],
+      "totalAmount": 1590,
+      "status": "Order Packed",
+      "statusHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-11-24T12:47:48.417Z",
+          "updatedBy": "ai_agent",
+          "note": "Order confirmed via Storefront Chat."
+        },
+        {
+          "status": "Payment Confirmed",
+          "timestamp": "2026-11-24T15:47:48.417Z",
+          "updatedBy": "seller",
+          "note": "UPI payment verified."
+        },
+        {
+          "status": "Order Packed",
+          "timestamp": "2026-11-25T16:47:48.417Z",
+          "updatedBy": "social_update",
+          "note": "Updated via seller social batch update."
+        }
+      ],
+      "payment": {
+        "status": "Payment Confirmed",
+        "method": "UPI",
+        "expectedAmount": 1590,
+        "upiId": "earthloom.crafts@okicici",
+        "upiLink": "upi://pay?pa=earthloom.crafts%40okicici&pn=Earthloom+Craft+Studio&am=1590.00&cu=INR&tn=Order+SM-1043",
+        "qrDataUrl": "data:image/png;base64,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",
+        "verifiedAt": "2026-11-24T15:47:48.417Z",
+        "verifiedBy": "Meera Patel"
+      },
+      "customerNotificationsSent": [
+        {
+          "timestamp": "2026-11-25T16:47:48.417Z",
+          "message": "Good news! Your order SM-1043 has been packed and is getting ready for dispatch.",
+          "channel": "Storefront Chat"
+        }
+      ],
+      "createdAt": "2026-11-24T12:47:48.417Z",
+      "updatedAt": "2026-11-25T16:47:48.417Z"
+    },
+    {
+      "id": "ord_1040",
+      "orderNumber": "SM-1040",
+      "sellerId": "seller_earthloom_demo",
+      "customerName": "Kavya Iyer",
+      "customerContact": "@kavya.iyer",
+      "deliveryAddress": "12 Besant Nagar 3rd Ave, Chennai 600090",
+      "channel": "Instagram DM",
+      "items": [
+        {
+          "productId": "prod_earrings_04",
+          "productName": "Terracotta & Sage Clay Earrings",
+          "quantity": 1,
+          "unitPrice": 420,
+          "lineTotal": 420
+        }
+      ],
+      "totalAmount": 420,
+      "status": "Order Delivered",
+      "statusHistory": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-11-19T16:47:48.417Z",
+          "updatedBy": "ai_agent",
+          "note": "Order placed via Instagram DM."
+        },
+        {
+          "status": "Payment Confirmed",
+          "timestamp": "2026-11-19T16:47:48.417Z",
+          "updatedBy": "seller",
+          "note": "Payment confirmed."
+        },
+        {
+          "status": "Order Dispatched",
+          "timestamp": "2026-11-21T16:47:48.417Z",
+          "updatedBy": "seller",
+          "note": "Shipped via Delhivery."
+        },
+        {
+          "status": "Order Delivered",
+          "timestamp": "2026-11-23T16:47:48.417Z",
+          "updatedBy": "seller",
+          "note": "Marked delivered."
+        }
+      ],
+      "payment": {
+        "status": "Payment Confirmed",
+        "method": "UPI",
+        "expectedAmount": 420,
+        "upiId": "earthloom.crafts@okicici",
+        "upiLink": "upi://pay?pa=earthloom.crafts%40okicici&pn=Earthloom+Craft+Studio&am=420.00&cu=INR&tn=Order+SM-1040",
+        "qrDataUrl": "data:image/png;base64,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",
+        "verifiedAt": "2026-11-19T16:47:48.418Z",
+        "verifiedBy": "Meera Patel"
+      },
+      "customerNotificationsSent": [],
+      "createdAt": "2026-11-19T16:47:48.418Z",
+      "updatedAt": "2026-11-23T16:47:48.418Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_85abb79ddd",
+      "sellerId": "seller_4bf8b4ae2f",
+      "customerName": "sher kahan",
+      "customerHandle": "@KABII",
+      "channel": "Instagram DM",
+      "consentGranted": true,
+      "messages": [],
+      "lastUpdated": "2026-11-26T17:12:59.590Z"
+    },
+    {
+      "id": "conv_ananya",
+      "sellerId": "seller_earthloom_demo",
+      "customerName": "Ananya Sharma",
+      "customerHandle": "@ananya.sharma_ig",
+      "channel": "Instagram DM",
+      "consentGranted": true,
+      "messages": [
+        {
+          "id": "msg_1",
+          "sender": "buyer",
+          "text": "Hi! I would like to order 2 Sandalwood Amber Soy Candles.",
+          "timestamp": "2026-11-26T13:35:48.418Z",
+          "intentDetected": "order"
+        },
+        {
+          "id": "msg_2",
+          "sender": "ai",
+          "text": "We have Sandalwood Amber Soy Candle in stock (₹640 each). Your total for 2 pieces is ₹1,280. Please confirm your full name and delivery address to register your order.",
+          "timestamp": "2026-11-26T13:41:48.418Z"
+        },
+        {
+          "id": "msg_3",
+          "sender": "buyer",
+          "text": "Ananya Sharma, 42 Indiranagar 100ft Rd, Bengaluru 560038. Confirm order!",
+          "timestamp": "2026-11-26T13:47:48.418Z",
+          "intentDetected": "order_confirmation",
+          "linkedOrderId": "ord_1042"
+        },
+        {
+          "id": "msg_4",
+          "sender": "ai",
+          "text": "Thank you for placing your order SM-1042! Total: ₹1,280. Please pay via UPI to earthloom.crafts@okicici and upload your payment screenshot for verification.",
+          "timestamp": "2026-11-26T13:47:48.418Z",
+          "linkedOrderId": "ord_1042"
+        }
+      ],
+      "lastUpdated": "2026-11-26T14:47:48.418Z"
+    },
+    {
+      "id": "conv_devika",
+      "sellerId": "seller_earthloom_demo",
+      "customerName": "Devika Rao",
+      "customerHandle": "+91 99001 44512",
+      "channel": "WhatsApp Business",
+      "consentGranted": true,
+      "messages": [
+        {
+          "id": "msg_5",
+          "sender": "buyer",
+          "text": "Do you accept bulk corporate gifting orders for 80 macrame keychains with custom name tags by next Friday?",
+          "timestamp": "2026-11-26T11:47:48.418Z",
+          "intentDetected": "escalate_query"
+        },
+        {
+          "id": "msg_6",
+          "sender": "ai",
+          "text": "Thank you for reaching out! Custom bulk timelines and custom name-tag pricing require confirmation from our studio owner. I have forwarded your request to our Queries queue and we will reply shortly.",
+          "timestamp": "2026-11-26T11:47:48.418Z"
+        }
+      ],
+      "lastUpdated": "2026-11-26T11:47:48.418Z"
+    }
+  ],
+  "queries": [
+    {
+      "id": "qry_01",
+      "sellerId": "seller_earthloom_demo",
+      "conversationId": "conv_devika",
+      "customerName": "Devika Rao",
+      "customerMessage": "Do you accept bulk corporate gifting orders for 80 macrame keychains with custom name tags by next Friday?",
+      "relatedProductId": "prod_keychain_01",
+      "relatedProductName": "Handmade Macrame Keychains",
+      "channel": "WhatsApp Business",
+      "escalationReason": "Custom bulk quantity exceeds current stock (8 remaining) and requires custom turnaround approval.",
+      "status": "Unanswered",
+      "createdAt": "2026-11-26T11:47:48.418Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "cmp_01",
+      "sellerId": "seller_earthloom_demo",
+      "orderId": "ord_1040",
+      "orderNumber": "SM-1036",
+      "customerName": "Neha Verma",
+      "productDetails": "Sandalwood Amber Soy Candle (226g)",
+      "category": "Damaged product",
+      "description": "Outer glass jar rim arrived chipped despite bubble wrap packaging.",
+      "status": "Overdue",
+      "reminderCount": 2,
+      "lastReminderAt": "2026-11-25T16:47:48.418Z",
+      "createdAt": "2026-11-21T16:47:48.418Z"
+    },
+    {
+      "id": "cmp_02",
+      "sellerId": "seller_earthloom_demo",
+      "orderNumber": "SM-1039",
+      "customerName": "Vikram Joshi",
+      "productDetails": "Sage Woven Macrame Tote Bag",
+      "category": "Delayed delivery",
+      "description": "Courier tracking has not moved from Mumbai hub for 4 days.",
+      "status": "Open",
+      "reminderCount": 1,
+      "lastReminderAt": "2026-11-26T10:47:48.418Z",
+      "createdAt": "2026-11-24T16:47:48.418Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_5ff0cb611a",
+      "sellerId": "seller_4bf8b4ae2f",
+      "type": "pricing_review",
+      "title": "Welcome to SELLMATE, anticss",
+      "message": "Your isolated business workspace is active. Review your smart pricing or test automated buyer messages anytime.",
+      "requiredAction": "Add products or share your storefront chat to begin automating orders.",
+      "targetTab": "products",
+      "isRead": false,
+      "isResolved": false,
+      "createdAt": "2026-11-26T17:12:15.517Z"
+    },
+    {
+      "id": "notif_1",
+      "sellerId": "seller_earthloom_demo",
+      "type": "payment_verification",
+      "title": "Payment Verification Required",
+      "message": "Ananya Sharma submitted a GPay screenshot (₹1,280, UTR 631948220194) for Order SM-1042.",
+      "orderNumber": "SM-1042",
+      "productName": "Sandalwood Amber Soy Candle",
+      "customerName": "Ananya Sharma",
+      "requiredAction": "Verify ₹1,280 credit in bank/UPI app and confirm or reject payment.",
+      "targetTab": "payments",
+      "isRead": false,
+      "isResolved": false,
+      "createdAt": "2026-11-26T14:47:48.418Z"
+    },
+    {
+      "id": "notif_2",
+      "sellerId": "seller_earthloom_demo",
+      "type": "low_stock",
+      "title": "Low Stock Alert: Handmade Macrame Keychains",
+      "message": "Remaining available stock is 8 pieces (Initial 50, Sold 40, Reserved 2). Minimum threshold is 10.",
+      "productName": "Handmade Macrame Keychains",
+      "requiredAction": "Restock units in Restock Management when new batch is ready.",
+      "targetTab": "queries-complaints",
+      "isRead": false,
+      "isResolved": false,
+      "createdAt": "2026-11-26T12:47:48.418Z"
+    },
+    {
+      "id": "notif_3",
+      "sellerId": "seller_earthloom_demo",
+      "type": "complaint_overdue",
+      "title": "Overdue Complaint Resolution (5 days open)",
+      "message": "Damaged product complaint from Neha Verma on Order SM-1036 has been pending for 5 days.",
+      "orderNumber": "SM-1036",
+      "productName": "Sandalwood Amber Soy Candle",
+      "customerName": "Neha Verma",
+      "requiredAction": "Send replacement or refund update and record resolution details.",
+      "targetTab": "queries-complaints",
+      "isRead": false,
+      "isResolved": false,
+      "createdAt": "2026-11-26T15:47:48.418Z"
+    },
+    {
+      "id": "notif_4",
+      "sellerId": "seller_earthloom_demo",
+      "type": "query_approval",
+      "title": "Escalated Customer Query",
+      "message": "Devika Rao asked about 80 custom macrame keychains for next Friday.",
+      "productName": "Handmade Macrame Keychains",
+      "customerName": "Devika Rao",
+      "requiredAction": "Reply to query and optionally save policy to FAQ knowledge base.",
+      "targetTab": "queries-complaints",
+      "isRead": false,
+      "isResolved": false,
+      "createdAt": "2026-11-26T11:47:48.418Z"
+    }
+  ],
+  "approvals": [
+    {
+      "id": "apr_1",
+      "sellerId": "seller_earthloom_demo",
+      "category": "payment_verification",
+      "title": "Confirm UPI Payment for Order SM-1042 (₹1,280)",
+      "description": "Buyer Ananya Sharma uploaded a Google Pay screenshot. OCR extracted ₹1,280 to earthloom.crafts@okicici (UTR 631948220194).",
+      "aiAssessment": "Screenshot fields match expected amount and UPI ID, but bank credit confirmation from seller is mandatory before confirming.",
+      "payload": {
+        "orderId": "ord_1042",
+        "orderNumber": "SM-1042",
+        "amount": 1280
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-26T14:47:48.418Z"
+    },
+    {
+      "id": "apr_2",
+      "sellerId": "seller_earthloom_demo",
+      "category": "serious_complaint",
+      "title": "Approve Replacement Dispatch for Damaged Candle (SM-1036)",
+      "description": "Neha Verma reported a chipped glass rim 5 days ago. Overdue reminder triggered.",
+      "aiAssessment": "Recommend approving free replacement dispatch or full ₹640 refund and logging resolution.",
+      "payload": {
+        "complaintId": "cmp_01",
+        "orderNumber": "SM-1036"
+      },
+      "status": "Pending",
+      "createdAt": "2026-11-25T16:47:48.418Z"
+    }
+  ],
+  "socialPosts": [
+    {
+      "id": "sp_1",
+      "sellerId": "seller_earthloom_demo",
+      "platform": "Instagram Post",
+      "postText": "All orders placed two days ago have been packed and are ready for courier pickup!",
+      "matchedOrderIds": [
+        "ord_1043"
+      ],
+      "proposedStatus": "Order Packed",
+      "ambiguityStatus": "Clear",
+      "rationale": "Matched Order SM-1043 (Priya Menon) placed 2 days ago.",
+      "applied": true,
+      "createdAt": "2026-11-25T16:47:48.418Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act_da096969e9",
+      "sellerId": "seller_4bf8b4ae2f",
+      "actor": "seller",
+      "action": "Business Workspace Created",
+      "details": "Registered store \"anticss\" (01526647783884890).",
+      "timestamp": "2026-11-26T17:12:15.590Z"
+    },
+    {
+      "id": "act_1",
+      "sellerId": "seller_earthloom_demo",
+      "actor": "ai_agent",
+      "action": "Order Placed & Stock Reserved",
+      "details": "Captured Order SM-1042 for 2x Sandalwood Amber Soy Candle from Ananya Sharma via Instagram DM.",
+      "timestamp": "2026-11-26T13:47:48.418Z"
+    },
+    {
+      "id": "act_2",
+      "sellerId": "seller_earthloom_demo",
+      "actor": "ai_agent",
+      "action": "OCR Payment Screening",
+      "details": "Extracted ₹1,280 and UTR 631948220194 from screenshot for Order SM-1042. Queued for seller verification.",
+      "timestamp": "2026-11-26T14:47:48.418Z"
+    }
+  ]
+}

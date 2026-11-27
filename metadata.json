@@ -1,0 +1,6 @@
+{
+  "name": "SELLMATE",
+  "description": "AI-powered small business management platform for independent sellers — automating pricing, customer orders, UPI verification, inventory restock, and complaint tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
